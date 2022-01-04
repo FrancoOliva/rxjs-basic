@@ -9,6 +9,7 @@ import { CancelarObservablesModule } from './cancelar-observables/cancelar-obser
 import { FromEventModule } from './from-event/from-event.module';
 import { OfModule } from './of/of.module';
 import { IntervalTimerModule } from './interval-timer/interval-timer.module';
+import { MapOperatorModule } from './map-operator/map-operator.module';
 
 
 
@@ -28,7 +29,8 @@ import { IntervalTimerModule } from './interval-timer/interval-timer.module';
     CancelarObservablesModule,
     FromEventModule,
     OfModule,
-    IntervalTimerModule
+    IntervalTimerModule,
+    MapOperatorModule
   ],
   providers: [],
   bootstrap: [AppComponent]
