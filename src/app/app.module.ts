@@ -11,6 +11,7 @@ import { OfModule } from './of/of.module';
 import { IntervalTimerModule } from './interval-timer/interval-timer.module';
 import { MapOperatorModule } from './map-operator/map-operator.module';
 import { FilterModule } from './filter/filter.module';
+import { ScrollProgressBarModule } from './scroll-progress-bar/scroll-progress-bar.module';
 
 
 
@@ -32,7 +33,8 @@ import { FilterModule } from './filter/filter.module';
     OfModule,
     IntervalTimerModule,
     MapOperatorModule,
-    FilterModule
+    FilterModule,
+    ScrollProgressBarModule
   ],
   providers: [],
   bootstrap: [AppComponent]
