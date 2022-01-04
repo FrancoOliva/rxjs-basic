@@ -6,10 +6,14 @@ import { AppComponent } from './app.component';
 import { ObservablesModule } from './observables/observables.module';
 import { AsyncObservableModule } from './async-observable/async-observable.module';
 import { CancelarObservablesModule } from './cancelar-observables/cancelar-observables.module';
+import { FromEventModule } from './from-event/from-event.module';
+
+
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    
   ],
   imports: [
     BrowserModule,
@@ -17,7 +21,8 @@ import { CancelarObservablesModule } from './cancelar-observables/cancelar-obser
     //rxjs
     ObservablesModule,
     AsyncObservableModule,
-    CancelarObservablesModule
+    CancelarObservablesModule,
+    FromEventModule
   ],
   providers: [],
   bootstrap: [AppComponent]
