@@ -10,6 +10,7 @@ import { FromEventModule } from './from-event/from-event.module';
 import { OfModule } from './of/of.module';
 import { IntervalTimerModule } from './interval-timer/interval-timer.module';
 import { MapOperatorModule } from './map-operator/map-operator.module';
+import { FilterModule } from './filter/filter.module';
 
 
 
@@ -30,7 +31,8 @@ import { MapOperatorModule } from './map-operator/map-operator.module';
     FromEventModule,
     OfModule,
     IntervalTimerModule,
-    MapOperatorModule
+    MapOperatorModule,
+    FilterModule
   ],
   providers: [],
   bootstrap: [AppComponent]
