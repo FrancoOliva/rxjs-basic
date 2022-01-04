@@ -19,6 +19,7 @@ export class FromEventComponent implements OnInit {
     complete: () => console.log('complete!')
   };
 
+  // Necesita 2 argumentos. En este caso : document, 'keyup' -> es el event/evento
   source$ = fromEvent(document, 'keyup');
 
   subOne = this.source$.subscribe(this.observer);

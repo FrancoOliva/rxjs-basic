@@ -7,6 +7,7 @@ import { ObservablesModule } from './observables/observables.module';
 import { AsyncObservableModule } from './async-observable/async-observable.module';
 import { CancelarObservablesModule } from './cancelar-observables/cancelar-observables.module';
 import { FromEventModule } from './from-event/from-event.module';
+import { OfModule } from './of/of.module';
 
 
 
@@ -22,7 +23,8 @@ import { FromEventModule } from './from-event/from-event.module';
     ObservablesModule,
     AsyncObservableModule,
     CancelarObservablesModule,
-    FromEventModule
+    FromEventModule,
+    OfModule
   ],
   providers: [],
   bootstrap: [AppComponent]
