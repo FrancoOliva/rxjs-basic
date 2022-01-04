@@ -8,6 +8,9 @@ import { AsyncObservableModule } from './async-observable/async-observable.modul
 import { CancelarObservablesModule } from './cancelar-observables/cancelar-observables.module';
 import { FromEventModule } from './from-event/from-event.module';
 import { OfModule } from './of/of.module';
+import { IntervalTimerModule } from './interval-timer/interval-timer.module';
+
+
 
 
 
@@ -24,7 +27,8 @@ import { OfModule } from './of/of.module';
     AsyncObservableModule,
     CancelarObservablesModule,
     FromEventModule,
-    OfModule
+    OfModule,
+    IntervalTimerModule
   ],
   providers: [],
   bootstrap: [AppComponent]
