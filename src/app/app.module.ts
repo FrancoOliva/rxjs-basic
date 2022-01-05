@@ -16,6 +16,7 @@ import { ReduceModule } from './reduce/reduce.module';
 import { ScanModule } from './scan/scan.module';
 import { ContadorEjercicioModule } from './contador-ejercicio/contador-ejercicio.module';
 import { TapModule } from './tap/tap.module';
+import { TakeModule } from './take/take.module';
 
 
 
@@ -42,7 +43,8 @@ import { TapModule } from './tap/tap.module';
     ReduceModule,
     ScanModule,
     ContadorEjercicioModule,
-    TapModule
+    TapModule,
+    TakeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
