@@ -12,6 +12,7 @@ import { IntervalTimerModule } from './interval-timer/interval-timer.module';
 import { MapOperatorModule } from './map-operator/map-operator.module';
 import { FilterModule } from './filter/filter.module';
 import { ScrollProgressBarModule } from './scroll-progress-bar/scroll-progress-bar.module';
+import { ReduceModule } from './reduce/reduce.module';
 
 
 
@@ -34,7 +35,8 @@ import { ScrollProgressBarModule } from './scroll-progress-bar/scroll-progress-b
     IntervalTimerModule,
     MapOperatorModule,
     FilterModule,
-    ScrollProgressBarModule
+    ScrollProgressBarModule,
+    ReduceModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
 import { Observable, fromEvent } from 'rxjs';
 import { map } from 'rxjs/operators';
 
@@ -31,6 +31,8 @@ export class ScrollProgressBarComponent implements OnInit {
     this.scroll$.subscribe(console.log);
 
     // no pudimos hacer funcionar progressBar
+    // hacer referencia a elemento
+    
    
   }
 
