@@ -13,6 +13,7 @@ import { MapOperatorModule } from './map-operator/map-operator.module';
 import { FilterModule } from './filter/filter.module';
 import { ScrollProgressBarModule } from './scroll-progress-bar/scroll-progress-bar.module';
 import { ReduceModule } from './reduce/reduce.module';
+import { ScanModule } from './scan/scan.module';
 
 
 
@@ -36,7 +37,8 @@ import { ReduceModule } from './reduce/reduce.module';
     MapOperatorModule,
     FilterModule,
     ScrollProgressBarModule,
-    ReduceModule
+    ReduceModule,
+    ScanModule
   ],
   providers: [],
   bootstrap: [AppComponent]
