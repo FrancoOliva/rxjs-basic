@@ -36,8 +36,8 @@ export class ScanComponent implements OnInit {
 
   ngOnInit(): void {
     // reduce y scan son similares
-    // reduce nos muestra en consola 15 que es el resultado final
-    // scan nos muestra 1,3,6,10,15
+    // reduce nos muestra en consola 15 que es el resultado final de la acumulación
+    // scan nos muestra 1,3,6,10,15 hasta llegar a la acumulación final
     // from(this.numbers).pipe(
     //   scan(this.totalReducer,0)
     // ).subscribe(console.log);

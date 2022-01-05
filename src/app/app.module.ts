@@ -14,6 +14,7 @@ import { FilterModule } from './filter/filter.module';
 import { ScrollProgressBarModule } from './scroll-progress-bar/scroll-progress-bar.module';
 import { ReduceModule } from './reduce/reduce.module';
 import { ScanModule } from './scan/scan.module';
+import { ContadorEjercicioModule } from './contador-ejercicio/contador-ejercicio.module';
 
 
 
@@ -38,7 +39,8 @@ import { ScanModule } from './scan/scan.module';
     FilterModule,
     ScrollProgressBarModule,
     ReduceModule,
-    ScanModule
+    ScanModule,
+    ContadorEjercicioModule
   ],
   providers: [],
   bootstrap: [AppComponent]
