@@ -15,6 +15,7 @@ import { ScrollProgressBarModule } from './scroll-progress-bar/scroll-progress-b
 import { ReduceModule } from './reduce/reduce.module';
 import { ScanModule } from './scan/scan.module';
 import { ContadorEjercicioModule } from './contador-ejercicio/contador-ejercicio.module';
+import { TapModule } from './tap/tap.module';
 
 
 
@@ -40,7 +41,8 @@ import { ContadorEjercicioModule } from './contador-ejercicio/contador-ejercicio
     ScrollProgressBarModule,
     ReduceModule,
     ScanModule,
-    ContadorEjercicioModule
+    ContadorEjercicioModule,
+    TapModule
   ],
   providers: [],
   bootstrap: [AppComponent]
