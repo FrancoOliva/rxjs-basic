@@ -17,6 +17,7 @@ import { ScanModule } from './scan/scan.module';
 import { ContadorEjercicioModule } from './contador-ejercicio/contador-ejercicio.module';
 import { TapModule } from './tap/tap.module';
 import { TakeModule } from './take/take.module';
+import { TakeWhileModule } from './take-while/take-while.module';
 
 
 
@@ -44,7 +45,8 @@ import { TakeModule } from './take/take.module';
     ScanModule,
     ContadorEjercicioModule,
     TapModule,
-    TakeModule
+    TakeModule,
+    TakeWhileModule
   ],
   providers: [],
   bootstrap: [AppComponent]
