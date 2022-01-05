@@ -18,6 +18,8 @@ import { ContadorEjercicioModule } from './contador-ejercicio/contador-ejercicio
 import { TapModule } from './tap/tap.module';
 import { TakeModule } from './take/take.module';
 import { TakeWhileModule } from './take-while/take-while.module';
+import { TakeUntilModule } from './take-until/take-until.module';
+import { DistinctUntilChangedModule } from './distinct-until-changed/distinct-until-changed.module';
 
 
 
@@ -46,7 +48,9 @@ import { TakeWhileModule } from './take-while/take-while.module';
     ContadorEjercicioModule,
     TapModule,
     TakeModule,
-    TakeWhileModule
+    TakeWhileModule,
+    TakeUntilModule,
+    DistinctUntilChangedModule
   ],
   providers: [],
   bootstrap: [AppComponent]
