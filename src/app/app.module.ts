@@ -24,6 +24,7 @@ import { DebounceTimeModule } from './debounce-time/debounce-time.module';
 import { MergeMapModule } from './merge-map/merge-map.module';
 import { SwitchMapModule } from './switch-map/switch-map.module';
 import { ConcatMapModule } from './concat-map/concat-map.module';
+import { ExhaustMapModule } from './exhaust-map/exhaust-map.module';
 
 
 
@@ -58,7 +59,8 @@ import { ConcatMapModule } from './concat-map/concat-map.module';
     DebounceTimeModule,
     MergeMapModule,
     SwitchMapModule,
-    ConcatMapModule
+    ConcatMapModule,
+    ExhaustMapModule
   ],
   providers: [],
   bootstrap: [AppComponent]
