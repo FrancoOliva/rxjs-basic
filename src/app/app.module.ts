@@ -22,6 +22,7 @@ import { TakeUntilModule } from './take-until/take-until.module';
 import { DistinctUntilChangedModule } from './distinct-until-changed/distinct-until-changed.module';
 import { DebounceTimeModule } from './debounce-time/debounce-time.module';
 import { MergeMapModule } from './merge-map/merge-map.module';
+import { SwitchMapModule } from './switch-map/switch-map.module';
 
 
 
@@ -54,7 +55,8 @@ import { MergeMapModule } from './merge-map/merge-map.module';
     TakeUntilModule,
     DistinctUntilChangedModule,
     DebounceTimeModule,
-    MergeMapModule
+    MergeMapModule,
+    SwitchMapModule
   ],
   providers: [],
   bootstrap: [AppComponent]
