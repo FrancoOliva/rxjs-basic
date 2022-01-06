@@ -23,6 +23,7 @@ import { DistinctUntilChangedModule } from './distinct-until-changed/distinct-un
 import { DebounceTimeModule } from './debounce-time/debounce-time.module';
 import { MergeMapModule } from './merge-map/merge-map.module';
 import { SwitchMapModule } from './switch-map/switch-map.module';
+import { ConcatMapModule } from './concat-map/concat-map.module';
 
 
 
@@ -56,7 +57,8 @@ import { SwitchMapModule } from './switch-map/switch-map.module';
     DistinctUntilChangedModule,
     DebounceTimeModule,
     MergeMapModule,
-    SwitchMapModule
+    SwitchMapModule,
+    ConcatMapModule
   ],
   providers: [],
   bootstrap: [AppComponent]
