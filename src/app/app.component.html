@@ -1,46 +1,43 @@
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-<!-- * * * * * * * * * * * The content below * * * * * * * * * * * -->
-<!-- * * * * * * * * * * is only a placeholder * * * * * * * * * * -->
-<!-- * * * * * * * * * * and can be replaced. * * * * * * * * * * * -->
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-<!-- * * * * * * * * * Delete the template below * * * * * * * * * * -->
-<!-- * * * * * * * to get started with your project! * * * * * * * * -->
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-
 <div class="center">
-    <h1>Ultimate RxJS</h1>
+  <!-- <h1>Ultimate RxJS</h1> -->
 
-    <!-- <app-observables></app-observables> -->
-    <!-- <app-async-observable></app-async-observable> -->
-    <!-- <app-cancelar-observables></app-cancelar-observables> -->
-    <!-- <app-from-event></app-from-event> -->
-    <!-- <app-of></app-of> -->
-    <!-- <app-interval-timer></app-interval-timer> -->
-    <!-- <app-map-operator></app-map-operator> -->
-    <!-- <app-filter></app-filter> -->
-    <!-- <app-scroll-progress-bar></app-scroll-progress-bar> -->
-    <!-- <app-reduce></app-reduce> -->
-    <!-- <app-scan></app-scan> -->
-    <!-- <app-contador-ejercicio></app-contador-ejercicio> -->
-    <!-- <app-tap></app-tap> -->
-    <!-- <app-take></app-take> -->
-    <!-- <app-take-while></app-take-while> -->
-    <!-- <app-take-until></app-take-until> -->
-    <!-- <app-distinct-until-changed></app-distinct-until-changed> -->
-    <!-- <app-debounce-time></app-debounce-time> -->
-    <!-- <app-merge-map></app-merge-map> -->
-    <!-- <app-switch-map></app-switch-map> -->
-    <!-- <app-concat-map></app-concat-map> -->
-    <app-exhaust-map></app-exhaust-map>
+  <h1>Change Detection Strategy</h1>
+  <!-- <app-change-detection-strategy></app-change-detection-strategy> -->
+  <app-change-detection-strategy-onpush
+    [config]="config"
+  ></app-change-detection-strategy-onpush>
+  <button (click)="onClick()" style="width: 75px; margin-top: 1rem">
+    Trigger Change Detection Strategy OnPush
+  </button>
+  <button
+    (click)="cambiarReferenciaObjeto()"
+    style="width: 75px; margin-top: 1rem"
+  >
+    Change Reference Object
+  </button>
 
+  <!-- <app-observables></app-observables> -->
+  <!-- <app-async-observable></app-async-observable> -->
+  <!-- <app-cancelar-observables></app-cancelar-observables> -->
+  <!-- <app-from-event></app-from-event> -->
+  <!-- <app-of></app-of> -->
+  <!-- <app-interval-timer></app-interval-timer> -->
+  <!-- <app-map-operator></app-map-operator> -->
+  <!-- <app-filter></app-filter> -->
+  <!-- <app-scroll-progress-bar></app-scroll-progress-bar> -->
+  <!-- <app-reduce></app-reduce> -->
+  <!-- <app-scan></app-scan> -->
+  <!-- <app-contador-ejercicio></app-contador-ejercicio> -->
+  <!-- <app-tap></app-tap> -->
+  <!-- <app-take></app-take> -->
+  <!-- <app-take-while></app-take-while> -->
+  <!-- <app-take-until></app-take-until> -->
+  <!-- <app-distinct-until-changed></app-distinct-until-changed> -->
+  <!-- <app-debounce-time></app-debounce-time> -->
+  <!-- <app-merge-map></app-merge-map> -->
+  <!-- <app-switch-map></app-switch-map> -->
+  <!-- <app-concat-map></app-concat-map> -->
+  <!-- <app-exhaust-map></app-exhaust-map> -->
 </div>
-
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-<!-- * * * * * * * * * * * The content above * * * * * * * * * * * -->
-<!-- * * * * * * * * * * is only a placeholder * * * * * * * * * * -->
-<!-- * * * * * * * * * * and can be replaced. * * * * * * * * * * * -->
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-<!-- * * * * * * * * * * End of Placeholder * * * * * * * * * * * -->
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 
 <router-outlet></router-outlet>

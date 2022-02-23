@@ -25,16 +25,11 @@ import { MergeMapModule } from './merge-map/merge-map.module';
 import { SwitchMapModule } from './switch-map/switch-map.module';
 import { ConcatMapModule } from './concat-map/concat-map.module';
 import { ExhaustMapModule } from './exhaust-map/exhaust-map.module';
-
-
-
-
+import { ChangeDetectionStrategyModule } from './change-detection-strategy/change-detection-strategy.module';
+import { ChangeDetectionStrategyOnpushModule } from './change-detection-strategy-onpush/change-detection-strategy-onpush.module';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    
-  ],
+  declarations: [AppComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
@@ -60,9 +55,12 @@ import { ExhaustMapModule } from './exhaust-map/exhaust-map.module';
     MergeMapModule,
     SwitchMapModule,
     ConcatMapModule,
-    ExhaustMapModule
+    ExhaustMapModule,
+    // change detection strategy
+    ChangeDetectionStrategyModule,
+    ChangeDetectionStrategyOnpushModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
